@@ -2,7 +2,7 @@
 
 ## 📄 Penjelasan Singkat Tentang Proyek
 
-Proyek ini adalah sebuah website statis yang berfungsi sebagai **Curriculum Vitae (CV)** atau portofolio online. Website ini dirancang sebagai halaman tunggal (*single-page*) dengan desain yang **responsif**, sehingga dapat diakses dengan baik di berbagai ukuran perangkat, mulai dari desktop hingga mobile.
+Proyek ini adalah sebuah website statis yang berfungsi sebagai **Curriculum Vitae (CV)** atau portofolio online. website ini adalah salah satu tugas dari matkul Proyek 3 dibuat nya website ini guna menuntaskan salah satu tugas proyek 3 ini dimana dengan adanya tugas ini saya belajar bagaimana membangun web yang resposif di segala device.
 
 Halaman ini terbagi menjadi beberapa bagian utama:
 * **Header**: Berisi judul dan navigasi yang tetap berada di atas layar saat di-scroll.
