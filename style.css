@@ -1,0 +1,321 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'quicksand', sans-serif;
+
+    padding: 0;
+    margin: 0;
+}
+h2, h3 {
+    color: #00a2c6;
+}
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #00a2c6;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+
+    color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+.profile header {
+    text-align: center;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 300px;  
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile-img {
+    width: 200px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+
+    padding: 20px;
+}
+
+  
+.card p{
+    text-align: justify;
+}
+.bungkus_Biodata {
+    font-size: 20px;
+    padding: 60px;
+    background-color: #00c8eb;
+    text-align: center;
+    color: white;
+  }
+
+nav ul {
+    padding-inline: 4rem;
+    display: flex;
+    gap: 2rem;
+    
+}
+
+  
+nav li {
+    list-style-type: none;
+  }
+   
+  nav {
+     background-color: #00a2c6;
+     padding: 5px;
+
+     position: sticky;
+     top: 0;
+  }
+
+main {
+    padding: 20px;
+
+    display: flex;
+    gap: 1.5rem;
+}
+
+#MasaSekolah h2 {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.education-item {
+    display: flex;              
+    align-items: center;        
+    justify-content: space-between; 
+    padding: 16px 0;            
+    border-bottom: 1px solid #eee; 
+}
+
+
+.education-item:last-child {
+    border-bottom: none;
+}
+
+
+.education-text h4 {
+    margin: 0 0 4px 0; 
+    font-size: 1.1em;
+}
+
+.education-text p {
+    margin: 0;         
+    color: #555;       
+}
+
+
+.education-image {
+    width: 100px;        
+    height: 60px;       
+    object-fit: cover;  
+    border-radius: 8px; 
+    margin-left: 20px; 
+}
+
+
+.card_pr {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      flex: 1 1 300px; 
+      max-width: 320px; 
+      padding: 20px;
+      transition: transform 0.2s ease-in-out;
+}
+
+.card_pr:hover {
+    transform: translateY(-5px);
+}
+
+.card_pr h3 {
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.card_pr p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center; 
+    gap: 16px;
+    flex-wrap: wrap; 
+}
+.tag {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-top: 10px;
+    background: #007bff;
+    color: white;
+    border-radius: 8px;
+    font-size: 12px;
+}
+.postion_project{
+    text-align: center;
+}
+.contact-links a {
+
+    text-decoration: none;
+
+    color: #008ca9;
+    
+    transition: color 0.2s ease;
+}
+
+.contact-links a:hover {
+    color: #00c8eb;
+}
+
+.contact-links {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#content {
+    flex: 5;
+    flex-direction: column; 
+    
+}
+
+.postion_aboutme{
+    text-align:center;
+}
+
+.card-content {
+  display: flex;         
+  align-items: center;    
+  gap: 20px;            
+}
+
+.profile table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin-top: 16px;
+}
+
+
+.profile th, .profile td {
+    padding: 8px 4px; 
+    text-align: left; 
+    vertical-align: top; 
+    border-bottom: 1px solid #f0f0f0; 
+}
+
+
+.profile tr:last-child th,
+.profile tr:last-child td {
+    border-bottom: none;
+}
+
+
+.profile th {
+    font-weight: 600; 
+    width: 110px; 
+    color: #333;
+}
+
+.profile td {
+    color: #555;
+}
+aside {
+  flex: 1;
+
+}
+header{
+    display: inline;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    main {
+        flex-direction: column; 
+    }
+
+    main aside {
+        align-self: center; 
+        width: 100%;       
+        max-width: 600px;  
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    .bungkus_Biodata {
+        padding: 30px;     
+        font-size: 16px;   
+    }
+    .bungkus_Biodata h1 {
+        font-size: 1.8em;  
+    }
+
+    
+    nav ul {
+        justify-content: center; 
+        padding-inline: 1rem;    
+    }
+
+    
+    main {
+        padding: 16px; 
+    }
+    main aside {
+        align-self: stretch; 
+    }
+
+    
+    .card-content {
+        flex-direction: column;  
+        align-items: center; 
+    }
+    .featured-image {
+        margin-bottom: 16px;
+        width: 150px;            
+        height: 150px;
+        border-radius: 50%;      
+    }
+
+    
+    .education-item {
+        flex-direction: column; 
+        align-items: flex-start; 
+        gap: 10px;
+    }
+    .education-image {
+        margin-left: 0;          
+        align-self: center;      
+    }
+}
+@media screen and (max-width: 480px) {
+    nav a {
+        font-size: 16px; /* Perkecil lagi ukuran font navigasi */
+    }
+
+    nav ul {
+        gap: 1.5rem; /* Kurangi jarak antar menu */
+    }
+}
