@@ -27,4 +27,4 @@ Proyek ini dibangun sepenuhnya dari dasar dengan teknologi web fundamental.
 
 Website ini dapat diakses secara langsung melalui link berikut:
 
-👉 **[Masukkan link website Anda di sini]** *https://cv-revan-ramdani-permana.netlify.app/*
+👉 *https://cv-revan-ramdani-permana.netlify.app/*
